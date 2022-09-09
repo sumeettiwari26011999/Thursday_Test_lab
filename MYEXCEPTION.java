@@ -1,4 +1,4 @@
-Question number two
+//Question number two
 class MyException extends Exception
 {
     public MyException(String s)
