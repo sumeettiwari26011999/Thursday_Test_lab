@@ -6,7 +6,7 @@ public class FileStreamExample {
 	public static void main(String[] args) {
 		try
 		{
-			FileOutputStream fous=new FileOutputStream("C:\Users\Suyas\Documents\Java");
+			FileOutputStream fous=new FileOutputStream("C:\Users\sumeet\Documents\Java");
 			DataOutputStream dous=new DataOutputStream(fous);
 			dous.writeInt(73);
 			dous.writeChar("S");
@@ -20,7 +20,7 @@ public class FileStreamExample {
 		}
 		try
 		{
-			FileInputStream fis =new FileInputStream("C:\Users\Suyas\Documents\Java");
+			FileInputStream fis =new FileInputStream("C:\Users\sumeet\Documents\Java");
 			DataInputStream dis = new DataInputStream(fis);
 			Int count=dis.available();
 			Byte[] b=new byte[count];
